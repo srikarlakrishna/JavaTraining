@@ -9,6 +9,6 @@ public abstract class AbstractImpl extends AbstractClassEx {
 	public abstract void unImplemnentedMethod2();
 
 	public void concreateMethod2() {
-		System.out.println("this is concreateMethod "+var1);
+		System.out.println("this is concreateMethod rajamohan "+var1);
 	}	
 }
