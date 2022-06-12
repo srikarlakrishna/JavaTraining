@@ -1,13 +1,13 @@
 package com.practice;
 
-public class Parent {
+public class Parent2 {
 	
-	public Parent() {
+	public Parent2() {
 		
 	}
 	int a;
 	//public --> default--> protected --> private
-	protected final int propertyLand() {
+	public final int propertyLand() {
 		System.out.println("giving 10 cr property to child");
 		return 100000000;
 	}
@@ -18,7 +18,7 @@ public class Parent {
 	}
 	
 	public static void main(String[] args) {
-		Parent p = new Parent();
+		Parent2 p = new Parent2();
 		p.propertyHouse(10);
 		p.propertyLand();
 	}

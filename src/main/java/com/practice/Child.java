@@ -23,8 +23,8 @@ public class Child extends Parent {
 
 	public static void main(String[] args) {
 		
-		Child c = new Child();
-		c.propertyHouse(10);
+		Parent p = new Child();
+		p.propertyHouse(10);
 		 
 		
 	}
